@@ -1,14 +1,12 @@
 package intro;
 
-import java.util.Iterator;
-
 public class Main {
 
 	public static void main(String[] args) {
 		//camelCase
 		//Don't repeat yourself
 		
-		String internetSubeButonu = "İnternet Şubeye Gir";
+		String internetSubeButonu = "Ä°nternet Åubeye Gir";
 		double dolarDun = 8.15;
 		double dolarBugun = 8.18;
 		int vade = 36;
@@ -17,19 +15,19 @@ public class Main {
 		System.out.println(internetSubeButonu);
 		
 		if (dolarBugun < dolarDun) {
-			System.out.println("Dolar düştü resmi");
+			System.out.println("Dolar dÃ¼ÅŸtÃ¼ resmi");
 		}
 		else if (dolarBugun > dolarDun) {
-			System.out.println("Dolar yükseldi resmi");
+			System.out.println("Dolar yÃ¼kseldi resmi");
 		}
 		else {
-			System.out.println("Dolar eşittir resmi");
+			System.out.println("Dolar eÅŸittir resmi");
 		}
 		
-		String kredi1 = "Hızlı Kredi";
+		String kredi1 = "HÄ±zlÄ± Kredi";
 		String kredi2 = "Mutlu Emekli Kredisi";
 		String kredi3 = "Konut Kredisi";
-		String kredi4 = "Çiftçi Kredisi";
+		String kredi4 = "Ã‡iftÃ§i Kredisi";
 		String kredi5 = "MSB Kredisi";
 		
 		System.out.println(kredi1);
@@ -39,10 +37,10 @@ public class Main {
 		System.out.println(kredi5);
 		
 		String[] krediler= {
-				"Hızlı Kredi",
+				"HÄ±zlÄ± Kredi",
 				"Mutlu Emekli Kredisi",
 				"Konut Kredisi",
-				"Çiftçi Kredisi",
+				"Ã‡iftÃ§i Kredisi",
 				"MSB Kredisi",
 				"MEB Kredisi"
 		};
@@ -68,20 +66,20 @@ public class Main {
 		sayilar2[0] = 100;
 		System.out.println(sayilar1[0]);
 		
-		// Sonucun 100 çıkmasını şu şekilde anlatabiliriz:
+		// Sonucun 100 Ã§Ä±kmasÄ±nÄ± ÅŸu ÅŸekilde anlatabiliriz:
 		/*
-		 * Dizileri birbirleri ile eşitlediğimizde (sayilar1 = sayilar2) içerisindeki veriler değil,
-		 * bu verilerin tutulduğu bellekteki adresler ile eşitlenir.
+		 * Dizileri birbirleri ile eÅŸitlediÄŸimizde (sayilar1 = sayilar2) iÃ§erisindeki veriler deÄŸil,
+		 * bu verilerin tutulduÄŸu bellekteki adresler ile eÅŸitlenir.
 		 * 
-		 * Örnek olarak: sayilar1 101. adreste olduğunu kabul edelim.
-		 * sayilar2 102. adreste olduğunu kabul edelim.
-		 * sayilar1 = sayilar2 yaptığımızda:
-		 * sayilar1 artık sayilar2'nin adresi ile eşitlenmiş olur.
-		 * Bu adreste yapılacak her değişiklikten etkilenecektir.
+		 * Ã–rnek olarak: sayilar1 101. adreste olduÄŸunu kabul edelim.
+		 * sayilar2 102. adreste olduÄŸunu kabul edelim.
+		 * sayilar1 = sayilar2 yaptÄ±ÄŸÄ±mÄ±zda:
+		 * sayilar1 artÄ±k sayilar2'nin adresi ile eÅŸitlenmiÅŸ olur.
+		 * Bu adreste yapÄ±lacak her deÄŸiÅŸiklikten etkilenecektir.
 		 * 
-		 * sayilar2[0] = 100 olarak bir atama yaptığımızda, 102. adresteki değer değişecektir.
-		 * sayilar1[0] ekrana yazdırmak istediğimizde, daha önce eşitleme işlemi yaptığımız için
-		 * sayilar1'de 102. adrese gidecek, 0. elemanı çağıracak ve ekrana 100 basacaktır. 
+		 * sayilar2[0] = 100 olarak bir atama yaptÄ±ÄŸÄ±mÄ±zda, 102. adresteki deÄŸer deÄŸiÅŸecektir.
+		 * sayilar1[0] ekrana yazdÄ±rmak istediÄŸimizde, daha Ã¶nce eÅŸitleme iÅŸlemi yaptÄ±ÄŸÄ±mÄ±z iÃ§in
+		 * sayilar1'de 102. adrese gidecek, 0. elemanÄ± Ã§aÄŸÄ±racak ve ekrana 100 basacaktÄ±r. 
 		 * 
 		 * */
 		
