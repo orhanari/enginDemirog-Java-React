@@ -3,13 +3,13 @@ package oopIntro;
 public class Product {
 	
 	public Product() {
-		System.out.println("Ben çalıştım");
+		System.out.println("Ben Ã§alÄ±ÅŸtÄ±m");
 	}
 	
 	public Product(int id, String name, double unitPrice, String detail) {
-		// this, class içerisindeki değişkeni seçmek için kullanılır.
+		// this, class iÃ§erisindeki deÄŸiÅŸkeni seÃ§mek iÃ§in kullanÄ±lÄ±r.
 		
-		this(); //Yukarıdaki constructor'ın çalışmasını istiyorsak.
+		this(); //YukarÄ±daki constructor'Ä±n Ã§alÄ±ÅŸmasÄ±nÄ± istiyorsak.
 		this.id = id;
 		this.name = name;
 		this.unitPrice = unitPrice;
