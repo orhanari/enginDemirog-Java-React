@@ -4,19 +4,19 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		// Çıktıda iki kez "Ben çalıştım" yazmasının sebebi, iki kere Product() constructor çağırdığımız içindir.
-		// İlk satır ise içerisinde değişkenler olan constructor ile bağıntılıdır.
-		// Yani aynı adda iki constructor tanımlanabilir ve işlem durumlarına göre belirli constructor çağırılır.
+		// Ã‡Ä±ktÃ½da iki kez "Ben Ã§alÃ½Å£tÃ½m" yazmasÃ½nÃ½n sebebi, iki kere Product() constructor Ã§aÄ‘Ã½rdÃ½Ä‘Ã½mÃ½z iÃ§indir.
+		// Ãlk satÃ½r ise iÃ§erisinde deÄ‘iÅ£kenler olan constructor ile baÄ‘Ã½ntÃ½lÃ½dÃ½r.
+		// Yani aynÃ½ adda iki constructor tanÃ½mlanabilir ve iÅ£lem durumlarÃ½na gÃ¶re belirli constructor Ã§aÄ‘Ã½rÃ½lÃ½r.
 		
 		Product product1 = new Product(1, "Lenovo V14", 15000, "16 GB RAM");
 		
-		Product product2 = new Product(); //Referans oluşturma, instance
+		Product product2 = new Product(); //Referans oluÅ£turma, instance
 		product2.id = 2;
 		product2.name="Lenovo V15";
 		product2.unitPrice = 16000;
 		product2.detail = "32 GB RAM";
 		
-		Product product3 = new Product(); //Referans oluşturma, instance
+		Product product3 = new Product(); //Referans oluÅ£turma, instance
 		product3.id = 3;
 		product3.name="HP 5";
 		product3.unitPrice = 10000;
@@ -31,7 +31,7 @@ public class Main {
 			System.out.println(product.name);
 		}
 		
-		System.out.println("Dizideki eleman sayıları: " + products.length);
+		System.out.println("Dizideki eleman sayÃ½larÃ½: " + products.length);
 		
 		
 		Category category1 = new Category();
@@ -40,7 +40,7 @@ public class Main {
 		
 		Category category2 = new Category();
 		category2.id = 2;
-		category2.name = "Ev / Bahçe";
+		category2.name = "Ev / BahÃ§e";
 		
 		
 		ProductManager productManager = new ProductManager();
