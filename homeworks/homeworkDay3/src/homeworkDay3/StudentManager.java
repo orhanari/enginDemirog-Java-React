@@ -2,9 +2,9 @@
 
 public class StudentManager extends UserManager{
 	//Student > Öğrenci
-	public void registerCourse(String[] courses) {
+	public void registerCourse(Student student, String[] courses) {
 		for(String course : courses) {
-			System.out.println("Kursa kayıt olundu: " + course);
+			System.out.println(student.name + " kursa kayıt oldu: " + course);
 		}
 	}
 }

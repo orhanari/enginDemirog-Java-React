@@ -29,14 +29,14 @@ public class Main {
 		InstructorManager instructorManager = new InstructorManager();
 		instructorManager.registerUser(instructor); // Extend edilen UserManager metodları
 		instructorManager.loginUser(instructor); // Extend edilen UserManager metodları
-		instructorManager.addCourse(courses);
+		instructorManager.addCourse(instructor, courses);
 		
 		System.out.println("");// Console'a boşluk ekle
 		
 		StudentManager studentManager = new StudentManager();
 		studentManager.registerUser(student); // Extend edilen UserManager metodları
 		studentManager.loginUser(student); // Extend edilen UserManager metodları
-		studentManager.registerCourse(courses);
+		studentManager.registerCourse(student, courses);
 		
 		
 		
